@@ -2,6 +2,7 @@ import requests
 import time
 import pickle
 import random
+#done
     r = requests.get("https://graph.facebook.com/v2.8/" + req , {'access_token' : token})
 
     return r
